@@ -11,3 +11,5 @@ Some of the features:
 * Modal windows
 * Notifications (not finished)
 * Lockscreen
+
+This project was first started by Vernon de Goede in April 2012 and has not been changed since June 2012. This application was meant for educational purposes only, so I never intended to finish it. However, anyone who would like to continue this project is allowed to do so. If you have any questions regarding this project, please contact me through GitHub.
