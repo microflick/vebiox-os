@@ -1,0 +1,4 @@
+[08-Sep-2011 12:19:04] PHP Fatal error:  Call to undefined function  getapplicationframe() in /home/vernondg/public_html/d/apps/photogallery/index.php on line 3
+[09-Sep-2011 00:06:47] PHP Fatal error:  Call to undefined function  getapplicationframe() in /home/vernondg/public_html/d/apps/photogallery/index.php on line 3
+[06-Oct-2011 10:32:33] PHP Fatal error:  Call to undefined function  getapplicationframe() in /home/vernondg/public_html/d/apps/photogallery/index.php on line 3
+[14-Feb-2012 04:23:28] PHP Fatal error:  Call to undefined function  getapplicationframe() in /home/vernondg/public_html/d/apps/photogallery/index.php on line 3

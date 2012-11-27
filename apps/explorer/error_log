@@ -1,0 +1,403 @@
+[07-Sep-2011 10:31:16] PHP Fatal error:  Call to undefined function  getapplicationframe() in /home/vernondg/public_html/d/apps/explorer/index.php on line 3
+[08-Sep-2011 07:52:02] PHP Fatal error:  Uncaught exception 'Exception' with message 'Image file not found: ÿû¬z»?×úbrÛ«zÏõÛ¿8Û¾üßš#’(éz' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/ThumbBase.inc.php(172): ThumbBase->triggerError('Image file not ...')
+#1 /home/vernondg/public_html/d/extern/ThumbBase.inc.php(110): ThumbBase->fileExistsAndReadable()
+#2 /home/vernondg/public_html/d/extern/GdThumb.inc.php(96): ThumbBase->__construct('???z????br??z??...', false)
+#3 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('???z????br??z??...', Array, false)
+#4 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('???z????br??z??...')
+#5 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 07:52:08] PHP Fatal error:  Uncaught exception 'Exception' with message 'Image file not found: ÿû¬z»?×úbrÛ«zÏõÛ¿8Û¾üßš#’(éz' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/ThumbBase.inc.php(172): ThumbBase->triggerError('Image file not ...')
+#1 /home/vernondg/public_html/d/extern/ThumbBase.inc.php(110): ThumbBase->fileExistsAndReadable()
+#2 /home/vernondg/public_html/d/extern/GdThumb.inc.php(96): ThumbBase->__construct('???z????br??z??...', false)
+#3 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('???z????br??z??...', Array, false)
+#4 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('???z????br??z??...')
+#5 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:00:55] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/6.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:00:55] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/3.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:00:55] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/2.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:00:55] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/4.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:00:55] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/5.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:00:55] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/7.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:00:55] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/8.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:00:55] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/9.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:00:58] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/2.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:00:58] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/6.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:00:58] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/7.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:00:58] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/3.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:00:58] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/5.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:00:58] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/4.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:00:59] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/9.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:00:59] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/8.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:01:00] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/2.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:01:00] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/6.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:01:00] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/5.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:01:00] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/3.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:01:00] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/9.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:01:00] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/4.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:01:00] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/7.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:01:01] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/8.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:01:02] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/2.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:01:02] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/3.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:01:02] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/4.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:01:02] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/6.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:01:02] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/8.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:01:02] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/9.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:01:02] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/5.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:01:02] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/7.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:01:04] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/2.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:01:04] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/5.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:01:04] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/6.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:01:05] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/3.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:01:05] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/7.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:01:05] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/8.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:01:05] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/4.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:01:05] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/9.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:01:10] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/2.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:01:10] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/5.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:01:10] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/8.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:01:10] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/4.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:01:10] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/3.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:01:11] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/6.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:01:11] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/9.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193
+[08-Sep-2011 08:01:11] PHP Fatal error:  Uncaught exception 'Exception' with message 'File is not a valid image: ../../users/1/pictures/7.jpg' in /home/vernondg/public_html/d/extern/ThumbBase.inc.php:193
+Stack trace:
+#0 /home/vernondg/public_html/d/extern/GdThumb.inc.php(1081): ThumbBase->triggerError('File is not a v...')
+#1 /home/vernondg/public_html/d/extern/GdThumb.inc.php(98): GdThumb->determineFormat()
+#2 /home/vernondg/public_html/d/extern/ThumbLib.inc.php(127): GdThumb->__construct('../../users/1/p...', Array, false)
+#3 /home/vernondg/public_html/d/apps/explorer/imageResize.php(28): PhpThumbFactory::create('../../users/1/p...')
+#4 {main}
+  thrown in /home/vernondg/public_html/d/extern/ThumbBase.inc.php on line 193

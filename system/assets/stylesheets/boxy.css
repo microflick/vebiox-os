@@ -1,0 +1,45 @@
+.boxy-wrapper { position: absolute; font: 12px/1 'Segoe UI', 'Lucida Grande'; -moz-box-shadow: 0 0 2px #888;
+-webkit-box-shadow: 0 0 2px #888;
+ }
+.boxy-wrapper.fixed {position: absolute;
+top: auto;
+left: auto;
+right: auto;
+bottom: auto;}
+
+  /* Modal */
+  
+  .boxy-modal-blackout { position: absolute; background-color: black; left: 0; top: 0; }
+  
+  /* Border */
+
+  .boxy-wrapper { empty-cells: show; }
+	.
+	
+
+	
+	/* IE6+7 hacks for the border. IE7 should support this natively but fails in conjuction with modal blackout bg. */
+	/* NB: these must be absolute paths or URLs to your images */
+	
+
+	
+	/* Title bar */
+	
+	
+	.boxy-wrapper .title-bar { background-color: white; padding: 6px; position: relative; height: 50px; font-weight: bold;}
+	  .boxy-wrapper .title-bar.dragging { cursor: move;  min-width: 300px; max-width: 500px; }
+	    .boxy-wrapper .title-bar h2 { font-size: 12px; line-height: 1; margin: 0; padding: 0; text-transform: uppercase; color: #242323; font-weight: bold; font: 12px/1 'Segoe UI', 'Lucida Grande'; padding-top: 10px; padding-left: 10px; margin-bottom: 10px; }
+	    .boxy-wrapper .title-bar .close { color: black; width: 20px; height: 20px; float: right; position: relative; top: -10px; font-size: 90%; line-height: 1; background-image: url('../images/gui/close.gif'); background-repeat: no-repeat; background-position: top right; margin-top: -12px; margin-right: 5px; }
+		.boxy-wrapper .close:hover { background-image: url('../images/gui/close_hover.gif');  }
+		
+	/* Content Region */
+	
+	.boxy-inner { background-color: white; padding: 0 }
+	.boxy-content { text-align: juftify; padding: 25px; max-width: 800px; line-height:normal; min-width: 600px; min-height: 300px; background-repeat: no-repeat; background-position: 10px left; }
+	
+	.boxy-content p { text-align: justify; }
+	
+	/* Question Boxes */
+
+    .boxy-wrapper .question { width: 350px; min-height: 80px; }
+    .boxy-wrapper .answers { text-align: right; }
